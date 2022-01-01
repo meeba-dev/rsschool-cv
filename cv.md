@@ -7,13 +7,20 @@
 * GitHub: [github.com/meeba-dev](https://github.com/meeba-dev)
 
 ## About Me
-I like to create useful things. It's a pure joy to use an app which were created by yourself. Moreover, it's great to know and see how your program makes better life of many people. 
+I like to create useful things. It's a pure joy to use an app which were created by your own. Moreover, it's great to know and see how your program makes better life of many people. 
 ## Skills
 * TypeScript, React, Redux, MongoDB
 * Java, Spring, Spring boot, SQL
 
 ## Code Example
+```js
+function multiply(a, b) {
+  return a * b;
+}
 
+let result = multiply(11, 8);
+alert(result);
+```
 ## Work Experience
 * NetCracker Technology
     * Java Developer Intern (October 2019 – May 2020)
