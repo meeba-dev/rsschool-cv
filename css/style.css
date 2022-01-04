@@ -43,6 +43,11 @@ aside h2 {
 main {
     background-color: var(--side-color);
     color: var(--text-color);
+    padding: 1em;
+}
+
+main h2 {
+    padding-left: 1em;
 }
 
 main h1, h2, h3 {
@@ -155,6 +160,65 @@ nav {
     margin-bottom: 1em;
 }
 
+.about-me-text {
+    padding-left: 2em;
+}
+
+.about-me p {
+    text-indent: 2em;
+}
+
+.education {
+    padding: 0;
+}
+
+.education img {
+    width: 20px;
+    height: 20px;
+}
+
+.projects {
+    padding: 0;
+}
+
+.projects a {
+    color: var(--white-color);
+    text-align: center;
+}
+
+.projects a:hover {
+    color: var(--back-color);
+}
+
+.projects li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.projects img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5em;
+}
+
+.projects-icons {
+    display: flex;
+}
+
+pre {
+    background-color: var(--back-color);    
+}
+
+code {
+    border-radius: 3px;
+    padding: 0 3px;
+    font-family: monospace;
+    font-size: 0.9rem;
+    color: var(--main-color);
+}
+
 footer {
     width: inherit;
     height: 100%;
@@ -168,6 +232,6 @@ footer {
 }
 
 .footer-container img {
-    width: 35px;
-    height: 35px;
+    display: block;
+    height: 50px;
 }
