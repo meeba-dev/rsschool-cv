@@ -40,6 +40,16 @@ aside h2 {
     text-align: center;
 }
 
+hr {
+    border: solid 2px var(--main-color);
+    border-radius: 2px;
+}
+
+.hr-sub {
+    border: solid 1px var(--main-color);
+    border-radius: 2px;
+}
+
 main {
     background-color: var(--side-color);
     color: var(--text-color);
