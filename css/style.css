@@ -85,12 +85,17 @@ nav {
 .navbar {
     display: flex;
     justify-content: space-around;
-    color: var(--back-color);
     padding-left: 0;
     height: 100%;
 }
 
-.navbar li:hover {
+.navbar a {
+    display: block;
+    text-decoration: none;
+    color: var(--back-color);
+}
+
+.navbar a:hover {
     color: var(--white-color);
     cursor: pointer;
 }
