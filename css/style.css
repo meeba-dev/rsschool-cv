@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+:root {
+    --main-color: #7bced8;
+    --h1-color: #000000;
+    --text-color: #777777;
+    --side-color: #f5f5f5;;
+    --white-color: #ffffff;
+    --back-color: #464547;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--back-color);
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1024px;
+    min-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    border: 2px solid var(--side-color);
+    background-color: var(--main-color);
+    color: var(--white-color);
+}
+
+aside {
+    border-right: 2px solid var(--side-color);
+    padding: 1em;
+}
+
+aside h2 {
+    text-align: center;
+}
+
+main {
+    background-color: var(--side-color);
+    color: var(--text-color);
+    padding: 1em;
+}
+
+main h2 {
+    padding-left: 1em;
+}
+
+main h1, h2, h3 {
+    color: var(--back-color);
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    background-color: var(--main-color);
+    width: 100%;
+    border-bottom: 2px solid var(--side-color);
+}
+
+header .photo img {
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: solid 5px var(--white-color);
+    object-fit: cover;
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid var(--side-color);
+    min-height: 2em;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+    height: 100%;
+}
+
+.navbar a {
+    display: block;
+    text-decoration: none;
+    color: var(--back-color);
+}
+
+.navbar a:hover {
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+}
+
+.header-container div:first-child {
+    padding: 2em 3em;
+}
+
+.header-container-info {
+    padding: 3em 0 0 3em;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.contacts li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 18em;
+}
+
+.contacts img {
+    width: 20px;
+    height: 20px;
+    margin-right: 1em;
+}
+
+.contacts li a {
+    color: var(--white-color);
+}
+
+.skills {
+    padding: 0;
+}
+
+.skills img {
+    width: 20px;
+    height: 20px;
+    margin-right: 1em;
+}
+
+.skills li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.languages {
+    padding: 0;
+}
+
+.languages li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.about-me-text {
+    padding-left: 2em;
+}
+
+.about-me p {
+    text-indent: 2em;
+}
+
+.education {
+    padding: 0;
+}
+
+.education img {
+    width: 20px;
+    height: 20px;
+}
+
+.projects {
+    padding: 0;
+}
+
+.projects a {
+    color: var(--white-color);
+    text-align: center;
+}
+
+.projects a:hover {
+    color: var(--back-color);
+}
+
+.projects li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.projects img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5em;
+}
+
+.projects-icons {
+    display: flex;
+}
+
+pre {
+    background-color: var(--back-color);    
+}
+
+code {
+    border-radius: 3px;
+    padding: 0 3px;
+    font-family: monospace;
+    font-size: 0.9rem;
+    color: var(--main-color);
+}
+
+footer {
+    width: inherit;
+    height: 100%;
+    border-top: 2px solid var(--side-color);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-container img {
+    display: block;
+    height: 50px;
+}
