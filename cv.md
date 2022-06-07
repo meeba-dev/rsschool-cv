@@ -1,7 +1,7 @@
 # rsschool-cv
 # Mikhail Baum
 ## Contacts
-* Location: Togliatti, Russia
+* Location: Samara, Russia
 * Phone: +7 927 777 52 72
 * Email: mikhailbaum@icloud.com
 * GitHub: [github.com/meeba-dev](https://github.com/meeba-dev)
@@ -22,6 +22,8 @@ let result = multiply(11, 8);
 alert(result);
 ```
 ## Work Experience
+* ICBCOM
+    * JavaScript Developer (since April 2022)
 * NetCracker Technology
     * Java Developer Intern (October 2019 – May 2020)
 * Kvartplata24
